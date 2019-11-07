@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    '@vuepress/last-updated',
     ['@vuepress/blog', {
       directories: [
         {
@@ -7,9 +8,9 @@ module.exports = {
           dirname: '_posts',
           path: '/',
           pagination: {
-            perPagePosts: 2,
-          },
-        },
+            lengthPerPage: 15,
+          }
+        }
       ],
       frontmatters: [
         {
@@ -17,12 +18,12 @@ module.exports = {
           keys: ['tag', 'tags'],
           path: '/tag/',
           layout: 'Tag',
-          frontmatter: { title: 'Tag' },
+          frontmatter: { title: '标签' },
           itemlayout: 'Tag',
           pagination: {
-            perPagePosts: 3
+            lengthPerPage: 15,
           }
-        },
+        }
       ]
     }],
   ],

@@ -1,7 +1,22 @@
 <template>
-  <ul id="default-layout">
-    <li v-for="tag in $tag.list">
+  <ul class="tag-list">
+    <li
+      class="tag-item"
+      v-for="tag in $tag.list"
+      :key="tag.key">
       <router-link class="page-link" :to="tag.path">{{ tag.name }}</router-link>
     </li>
   </ul>
 </template>
+<style lang="stylus" scoped>
+  .tag-list
+    margin-top 16px
+  .tag-item
+    margin-bottom 16px
+  .page-link
+    text-decoration none
+    color $textColor
+    font-size 20px
+    &:hover
+      color $accentColor
+</style>

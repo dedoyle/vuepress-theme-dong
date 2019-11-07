@@ -1,5 +1,5 @@
 {
-  "name": "70-lines-of-vuepress-blog-theme",
+  "name": "vuepress-theme-dong",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/ulivz/40-lines-of-vuepress-blog-theme.git",
@@ -12,5 +12,10 @@
   "devDependencies": {
     "@vuepress/plugin-blog": "latest",
     "vuepress": "next"
+  },
+  "dependencies": {
+    "@vuepress/plugin-last-updated": "^1.2.0",
+    "prismjs": "^1.17.1",
+    "timeago.js": "^4.0.1"
   }
 }

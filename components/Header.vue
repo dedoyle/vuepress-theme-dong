@@ -28,4 +28,6 @@ export default {
     font-size 20px
     color $textColor
     text-decoration none
+    &.router-link-exact-active
+      color $accentColor
 </style>

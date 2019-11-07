@@ -1,24 +1,24 @@
 <template>
   <div>
-    <ul id="default-layout">
-      <li v-for="page in $pagination.pages">
-        <router-link class="page-link" :to="page.path">{{ page.title }}</router-link>
-      </li>
-    </ul>
-    <div id="pagination">
-      <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
-      <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
+    <post-list :list="$pagination.pages"></post-list>
+    <div class="tac">
+      <Pagination />
     </div>
   </div>
 </template>
 
 <script>
+  import PostList from '../components/PostList'
+  import { Pagination } from '@vuepress/plugin-blog/lib/client/components'
+
   export default {
+    name: 'Layout',
+    components: {
+      PostList,
+      Pagination
+    },
     data () {
       return {}
-    },
-    created () {
-      console.log(this.$pagination)
     }
   }
 </script>
