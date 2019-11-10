@@ -9,6 +9,7 @@
   </ul>
 </template>
 <style lang="stylus" scoped>
+  @require '../styles/typography.styl'
   .tag-list
     margin-top 16px
   .tag-item
@@ -16,7 +17,7 @@
   .page-link
     text-decoration none
     color $textColor
-    font-size 20px
+    font-size $fontSizeLarge
     &:hover
       color $accentColor
 </style>

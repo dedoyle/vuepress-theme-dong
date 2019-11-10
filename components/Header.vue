@@ -13,20 +13,22 @@ export default {
 }
 </script>
 <style lang="stylus">
+  @require '../styles/typography.styl'
+
   .global-header
     display flex
-    line-height 60px
+    font-size $fontSizeExtraLarge
+    line-height 3
     justify-content space-between
     align-items center
+    color $textColor
 
   .global-header-logo
-    color $textColor
+    color inherit
     text-decoration none
-    font-size 40px
 
   .global-header-sub
-    font-size 20px
-    color $textColor
+    color inherit
     text-decoration none
     &.router-link-exact-active
       color $accentColor

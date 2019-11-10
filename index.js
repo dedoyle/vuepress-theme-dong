@@ -8,6 +8,11 @@ module.exports = {
           dirname: '_posts',
           path: '/',
           pagination: {
+            sorter: function sorter(prev, next){
+              const prevTime = new Date(prev.frontmatter.date).getTime()
+              const nextTime = new Date(next.frontmatter.date).getTime()
+              return prevTime - nextTime > 0 ? -1 : 1
+            },
             lengthPerPage: 15,
           }
         }

@@ -2,7 +2,6 @@
   <div id="global-layout" class="global-layout">
     <Header/>
     <DefaultGlobalLayout/><br>
-    <!-- <footer style="background-color: #DDD"><a href="https://github.com/ulivz/70-lines-of-vuepress-blog-theme">Github</a> · Powered by VuePress</p></footer> -->
   </div>
 </template>
 

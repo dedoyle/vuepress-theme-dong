@@ -20,8 +20,3 @@
     }
   }
 </script>
-
-<style lang="stylus" scoped>
-  .post-list
-    margin-top 16px
-</style>

@@ -5,11 +5,6 @@
       <post-time
         class="post-time"
         :last-updated="page.frontmatter.date || page.lastUpdated"></post-time>
-      <router-link
-        class="page-link post-tag"
-        v-for="tag in page.frontmatter.tag"
-        :key="tag"
-        :to="'/tag/' + tag">{{ tag }}</router-link>
     </div>
   </li>
 </template>
@@ -30,22 +25,24 @@
 </script>
 
 <style lang="stylus" scoped>
+  @require '../styles/typography.styl'
+
   .post-item
+    padding 10px 0
     margin-bottom 16px
-    font-size 20px
+    line-height 1.5
+    display flex
+    justify-content space-between
+    border-bottom 1px solid $borderColor
+    font-size $fontSizeMedium
+    box-sizing border-box
     .page-link
       text-decoration none
       color $textColor
       &:hover
         color $accentColor
-    .post-title
-      line-height 32px
     .post-info
-      line-height 20px
-      font-size 14px
+      font-size $fontSizeBase
     .post-time
       vertical-align middle
-    .post-tag
-      vertical-align middle
-      margin-left 10px
 </style>

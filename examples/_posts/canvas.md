@@ -1,3 +1,13 @@
+---
+date: 2019-11-10
+tag: 
+  - theme
+  - blog
+  - vuepress
+author: ULIVZ
+location: Shanghai  
+---
+
 # Canvas 基础 API 和代码示例
 
 Canvas API 提供了一个通过 JavaScript 和 HTML 的 `<canvas>` 元素来绘制图形的方式。它可以用于动画、游戏画面、数据可视化、图片编辑以及实时视频处理等方面。
@@ -14,7 +24,7 @@ canvas 是二维的矩形区域，左上角的坐标为 (0, 0)，右下角的坐
 
 下面的代码综合了直线、弧线、圆、矩形的的示例，同时也包含笔画颜色，笔画大小，填充色，渐变色等知识。
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -99,7 +109,7 @@ canvas 是二维的矩形区域，左上角的坐标为 (0, 0)，右下角的坐
 
 ## 随机分布的直线
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="zh-CN">
 
@@ -172,7 +182,7 @@ canvas 是二维的矩形区域，左上角的坐标为 (0, 0)，右下角的坐
 
 ## 画画
 
-```html
+``` html
 <!DOCTYPE html>
 <html lang="zh-CN">
 
