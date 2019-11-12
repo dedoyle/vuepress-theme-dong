@@ -7,6 +7,7 @@ module.exports = {
           id: 'post',
           dirname: '_posts',
           path: '/',
+          frontmatter: { title: '文章' },
           pagination: {
             sorter: function sorter(prev, next){
               const prevTime = new Date(prev.frontmatter.date).getTime()

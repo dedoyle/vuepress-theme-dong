@@ -29,8 +29,7 @@
 
   .post-item
     padding 10px 0
-    margin-bottom 16px
-    line-height 1.5
+    line-height 2
     display flex
     justify-content space-between
     border-bottom 1px solid $borderColor

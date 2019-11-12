@@ -1,11 +1,11 @@
 ---
-date: 2019-11-10
+date: 2019-11-12
 tag: 
-  - theme
-  - blog
-  - vuepress
-author: ULIVZ
-location: Shanghai  
+  - canvas
+  - javascript
+  - html
+author: 锦东
+location: 广州 
 ---
 
 # Canvas 基础 API 和代码示例
@@ -224,8 +224,13 @@ canvas 是二维的矩形区域，左上角的坐标为 (0, 0)，右下角的坐
     <a class="txt-btn" href="javascript:void(0);" onclick="chooseSize('large')">Large</a>
     <a class="txt-btn" href="javascript:void(0);" onclick="chooseSize('huge')">Huge</a>
   </div>
+  <div class="mb16">
+    Choose a tool:
+    <a class="txt-btn" href="javascript:void(0);" onclick="chooseTool('marker')">Marker</a>
+    <a class="txt-btn" href="javascript:void(0);" onclick="chooseTool('crayon')">Crayon</a>
+    <a class="txt-btn" href="javascript:void(0);" onclick="chooseTool('eraser')">Eraser</a>
+  </div>
   <canvas id="canvas" width="490" height="220"></canvas>
-  <img src="https://github.com/williammalone/Simple-HTML5-Drawing-App/blob/master/images/watermelon-duck-outline.png?raw=true">
 
   <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
   <script>
@@ -251,7 +256,7 @@ canvas 是二维的矩形区域，左上角的坐标为 (0, 0)，右下角的坐
     var curSize = 'normal'
 
     // 工具
-    var clickTool = []
+    var clickTool = ['crayon', 'marker', 'eraser']
     var curTool = 'crayon'
 
     var canvasWidth = 490,
@@ -341,6 +346,10 @@ canvas 是二维的矩形区域，左上角的坐标为 (0, 0)，右下角的坐
 
     function chooseSize(size) {
       curSize = size
+    }
+
+    function chooseTool(tool) {
+      curTool = tool
     }
 
     $('#canvas').mousedown(function (e) {
