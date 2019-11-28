@@ -14,15 +14,15 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:dedoyle/blog.git master:gh-pages
+git push -f git@github.com:dedoyle/blog.git master:gh-pages
 
 # 链接远程仓库
-git remote add origin https://github.com/dedoyle/blog.git
+git remote add origin git@github.com:dedoyle/blog.git
 
 # 拉取远程仓库的文件
 git pull --rebase origin master  
 
 # 同步更新代码
-git push -u origin master
+git push origin master
 
 cd -
