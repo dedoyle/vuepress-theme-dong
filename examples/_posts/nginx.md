@@ -177,4 +177,4 @@ Find status of Nginx server command
     $ systemctl status nginx
 ```
 
-(How to install and use Nginx on CentOS 7 / RHEL 7)[https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/]
+[How to install and use Nginx on CentOS 7 / RHEL 7](https://www.cyberciti.biz/faq/how-to-install-and-use-nginx-on-centos-7-rhel-7/)

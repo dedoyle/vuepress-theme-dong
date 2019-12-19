@@ -22,8 +22,8 @@ SQLALchemy 是一个关系型数据库框架，它提供了高层的 ORM 和底�
 ```
 
 2. 安装 PostgreSQL
-    (下载地址)[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads]
-    (安装教程)[https://www.runoob.com/postgresql/windows-install-postgresql.html]
+    [下载地址](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+    [安装教程](https://www.runoob.com/postgresql/windows-install-postgresql.html)
 
 ## 代码
 

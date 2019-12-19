@@ -88,10 +88,10 @@ By default only the SSH port 22 is open. The output should look something like t
 
 At this point, you have successfully enabled the iptables service and you can start building your firewall. The changes will persist after a reboot.
 
-(how to install iptables on centos 7)[https://linuxize.com/post/how-to-install-iptables-on-centos-7/#prerequisites]
+[how to install iptables on centos 7](https://linuxize.com/post/how-to-install-iptables-on-centos-7/#prerequisites)
 
-(man page)[https://linux.die.net/man/8/iptables]
+[man page](https://linux.die.net/man/8/iptables)
 
-(阿里云linux服务器上使用iptables设置安全策略的方法)[https://www.jb51.net/article/94839.htm]
+[阿里云linux服务器上使用iptables设置安全策略的方法](https://www.jb51.net/article/94839.htm)
 
-(Linux服务器最最基本安全策略)[https://cloud.tencent.com/developer/article/1071312]
+[Linux服务器最最基本安全策略](https://cloud.tencent.com/developer/article/1071312)

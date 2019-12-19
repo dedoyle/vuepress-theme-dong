@@ -8,4 +8,5 @@ location: 广州
 ---
 
 # 申请免费ssl证书
-(申请免费ssl证书)[https://blog.csdn.net/bowei026/article/details/89197879]
+
+[申请免费ssl证书](https://blog.csdn.net/bowei026/article/details/89197879)

@@ -10,8 +10,8 @@ location: 广州
 
 ## 安装
 
-    (下载地址)[https://www.enterprisedb.com/downloads/postgres-postgresql-downloads]
-    (安装教程)[https://www.runoob.com/postgresql/windows-install-postgresql.html]
+    [下载地址](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
+    [安装教程](https://www.runoob.com/postgresql/windows-install-postgresql.html)
 
 ## 创建数据库
 
